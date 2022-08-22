@@ -1,0 +1,64 @@
+.container{
+    /* background-color: blueviolet; */
+    /* background-image: url('./img/background.jpg'); */
+    background-size: cover;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.44);
+    height: 100vh;
+
+}
+.model{
+    /* position: relative; */
+}
+.model .img_model{
+    width: 300px;
+}
+.model_right{
+    position: relative;
+}
+.img_active {
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    top:90px;
+    opacity: .7;
+
+}
+.text_content{
+    position: absolute;
+    bottom: 0;
+    /* transform: translateY(%); */
+    background-color: rgb(252, 173, 93);
+    opacity: .7;
+    width: 100%;
+    text-align: left;
+    padding: 0px 15px;
+}
+.text_content h3{
+    font-size: 24px;
+    color: rgb(210, 90, 232);
+}
+.text_content p{
+    color: white;
+    font-size: 16px;
+
+
+}
+
+.model_left{
+    position: relative;
+}
+
+.glasses_List{
+ 
+    padding: 20px;
+    border:1px solid rgba(165, 42, 42, 0.507);
+}
+
+
+
+
+
+
